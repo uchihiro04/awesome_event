@@ -1,0 +1,5 @@
+<key>EnvironmentVariables</key>
+<dict>
+  <key>ES_JAVA_HOME</key>
+  <string>/Library/Java/JavaVirtualMachines/zulu-22.jdk/Contents/Home</string>
+</dict>
