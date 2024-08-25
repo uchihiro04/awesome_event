@@ -6,4 +6,3 @@ updates:
       interval: "weekly"
     allow:
       - dependency-type: "all"
-    version_requirement_updates: "off"
