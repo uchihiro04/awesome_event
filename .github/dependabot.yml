@@ -1,9 +1,9 @@
-version: 1
-update_configs:
-  - package_manager: "ruby:bundler"
+version: 2
+updates:
+  - package-ecosystem: "bundler"
     directory: "/"
-    update_schedule: "weekly"
-    allowed_updates:
-      - match:
-          update_type: "all"
+    schedule:
+      interval: "weekly"
+    allow:
+      - dependency-type: "all"
     version_requirement_updates: "off"
